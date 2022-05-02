@@ -1,0 +1,72 @@
+/* .dispaly-operation {
+    display: none;
+}
+
+.flex-block-card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-block {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    border-radius: 5%;
+    border: burlywood solid 2px;
+    margin: 5px;
+    background-color: gainsboro;
+    text-align: center;
+    
+}
+.flex-block:hover {
+    border-radius: 25%;
+    background-color: blanchedalmond;
+    overflow:auto;
+    cursor: pointer;
+}
+
+.block-card-img {
+    width: 150px;
+    height: 100px;
+}
+
+.img-block {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.img-block > img {
+    margin: 10px;
+}
+
+.img-block > img:first-child {
+    margin: 10px;
+}
+
+
+
+.warn {
+    color: orange
+  } */
+
+
+.personal-info {
+    margin: 20px;
+    width: 600px;
+    text-align: center;
+}
+
+.informationGet{
+    margin: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.none {
+    display: none;
+}
+

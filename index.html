@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>My Web</title>
+</head>
+<body>
+    <select class="form-select" id="selectStorage" aria-label="Default select example">
+        <option selected>Select one of this</option>
+        <option value="cookies">Cookies</option>
+        <option value="localStorage">Local Storage</option>
+        <option value="indexDbStorage">IndexDb Storage</option>
+      </select>
+    <div class="personal-info">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">FirstName</span>
+            <input type="text" id="fieldFirstSet" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">LastName</span>
+            <input type="text" id="fieldSecondSet" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Age</span>
+            <input type="text" id="fieldThirdSet" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <button type="button" id="btnSave" class="btn btn-success">Save storage</button>
+    </div>
+    <div class="personal-info">
+         <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Key</span>
+            <input type="text" id="fieldKeyRemove" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <button type="button" id="btnRemove" class="btn btn-success">Delete storage</button>
+    </div>
+    <div class="personal-info">
+        <div class="input-group mb-3">
+           <span class="input-group-text" id="inputGroup-sizing-default">Key</span>
+           <input type="text" id="fieldKeyUpdate" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+       </div>
+       <div class="input-group mb-3">
+           <span class="input-group-text" id="inputGroup-sizing-default">Value</span>
+           <input type="text" id="fieldValueUpdate" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+       </div>
+       <button type="button" id="btnUpdate" class="btn btn-success">Update storage</button>
+   </div>
+    <div class="personal-info">
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="inputGroup-sizing-default">Key</span>
+            <input type="text" id="fieldKeyGet" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+        </div>
+        <button type="button" id="btnGet" class="btn btn-success">Get storage</button>
+        <div class="none informationGet">
+            <span id="fieldFirstGet" id="">Unknown</span>
+            <span id="fieldSecondGet" id="inputGroup-sizing-default">Unknown</span>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="/script/loadModuls.js"></script>
+</body>
+</html>
